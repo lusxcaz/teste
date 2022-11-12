@@ -1,0 +1,39 @@
+.sobre {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid: 100px;
+  }
+  .sobre-txt {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 50ch;
+    margin-bottom: 60px;
+    color: #525252;
+  }
+  .subtitulo {
+    color: #141414;
+  }
+  .sobre-txt strong {
+    color: #141414;
+  }
+  @media (max-width: 1110px) {
+    .sobre {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
+  @media (max-width: 700px) {
+    .sobre-txt {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 440px) {
+    .sobre-txt {
+      font-size: 1rem;
+    }
+  }
+  
